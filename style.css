@@ -1,0 +1,438 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Popins-R";
+  src: url(resource/font/Popins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Popins-SB";
+  src: url(resource/font/Popins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-B";
+  src: url(resource/font/Raleway/Raleway-v4020-Bold.otf);
+}
+header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #311F09;
+  transition: 0.5s all ease;
+}
+
+a:hover {
+  color: #FF8A00;
+}
+
+.cheto {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cheto div {
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #D0CCC7;
+}
+
+.cheto div img {
+  width: auto;
+  height: 75%;
+}
+
+.a_green_butt{
+  width: 60%;
+  height: 100%;
+}
+
+.greenButt{
+  width: 100%;
+  height: 100%;
+  border-style: none;
+  border-radius: 100px;
+  padding: 5%;
+  background-color: #3FA72F;
+  color: white;
+  font-family: "Popins-R";
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.greenButt:hover {
+  background-color: #81e671;
+}
+
+.menuSection {
+  width: 100%;
+  height: 250vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menuSection .center_section {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuSection h1 {
+  font-family: "Raleway-B";
+  font-size: 80px;
+  color: #311F09;
+}
+.menuSection .menu_lent {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menuSection .black_butt_menu {
+  width: 17%;
+  height: 100%;
+  border-style: none;
+  border-radius: 100px;
+  padding: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #311F09;
+  color: white;
+  font-family: "Popins-SB";
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.menuSection .yellow_butt:hover {
+  background-color: #523818;
+}
+.menuSection .butt_menu {
+  width: 17%;
+  height: 100%;
+  border-style: none;
+  border-radius: 100px;
+  padding: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d0ccc7;
+  color: #311F09;
+  font-family: "Popins-SB";
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.menuSection .yellow_butt:hover {
+  background-color: #ffffff;
+}
+
+.lents {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-template-rows: repeat(2, 50%);
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+  align-items: center;
+}
+.lents .pizza_article {
+  background-color: rgba(208, 204, 199, 0.1098039216);
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 50px;
+}
+.lents .pizza_article .pizza_img {
+  width: 60%;
+  height: auto;
+}
+.lents .pizza_article h2 {
+  font-family: "Raleway-B";
+  font-size: 30px;
+  color: #311F09;
+  text-align: center;
+}
+.lents .pizza_article .just_text {
+  font-size: 14px;
+  font-family: "Popins-R";
+  line-height: 200%;
+  color: #59442B;
+  text-align: center;
+}
+.lents .pizza_article div {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.lents .pizza_article .price_text {
+  font-family: "Popins-SB";
+  font-size: 25px;
+  color: #311F09;
+}
+.lents .pizza_article .yellow_butt {
+  width: 45%;
+  height: 100%;
+  border-style: none;
+  border-radius: 100px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF8A00;
+  color: white;
+  font-family: "Popins-R";
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.lents .pizza_article .yellow_butt:hover {
+  background-color: #ffaf54;
+}
+
+.niz_crutit {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.niz_crutit .black_square_butt {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #311F09;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.niz_crutit .black_square_butt img {
+  width: auto;
+  height: 40%;
+}
+.niz_crutit .black_square_butt:hover {
+  background-color: #523818;
+}
+.niz_crutit .orange_square_num_butt {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #FFF5EB;
+  color: #FF8A00;
+  font-family: "Popins-SB";
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.niz_crutit .orange_square_num_butt:hover {
+  background-color: #FF8A00;
+  color: white;
+}
+.niz_crutit .tree_points_butt {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #A08D76;
+  font-family: "Popins-R";
+  font-size: 20px;
+  cursor: default;
+}
+
+footer {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3D2817;
+}
+
+.center-footer {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spiralka {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.soc-logo-text {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.soc-logo-text img {
+  width: 40%;
+  height: auto;
+}
+
+.soc-logo-text p {
+  width: 90%;
+  font-family: "Popins-R";
+  font-size: 16px;
+  color: #D0CCC7;
+  line-height: 1.8;
+}
+
+.footer-logos-soc {
+  width: 60%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logos-soc img {
+  width: 30%;
+  height: auto;
+  border-radius: 100%;
+  background-color: white;
+  padding: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.footer-logos-soc img:hover {
+  transform: scale(1.1);
+}
+
+.page-footer, .info-footer, .touch_footer {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.page-footer h3, .info-footer h3, .touch_footer h3 {
+  font-family: "Popins-SB";
+  font-size: 22px;
+  color: #FF8A00;
+}
+
+.page-footer div, .info-footer div, .touch_footer div {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer_li {
+  list-style: none;
+}
+
+.footer_a {
+  font-family: "Popins-R";
+  font-size: 16px;
+  color: #D0CCC7;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.footer_a:hover {
+  color: #FF8A00;
+}
+
+.touch_footer .footer_li {
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #D0CCC7;
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.copyright {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright p {
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #D0CCC7;
+}/*# sourceMappingURL=style.css.map */

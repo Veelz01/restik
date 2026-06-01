@@ -1,0 +1,220 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Popins-R";
+  src: url(resource/font/Popins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "Popins-SB";
+  src: url(resource/font/Popins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Raleway-B";
+  src: url(resource/font/Raleway/Raleway-v4020-Bold.otf);
+}
+.sign_in {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sign_in .left_div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign_in .left_div .for_logos {
+  width: 80%;
+  height: 5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sign_in .left_div .for_logos img {
+  width: auto;
+  height: 100%;
+  margin-top: 50px;
+}
+.sign_in .left_div .sign_up {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign_in .left_div .sign_up .center_sign_up {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sign_in .left_div .sign_up .center_sign_up .title_text {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2.5%;
+}
+.sign_in .left_div .sign_up .center_sign_up .title_text h1 {
+  font-family: "Raleway-B";
+  font-size: 40px;
+  color: #311F09;
+  line-height: 100%;
+}
+.sign_in .left_div .sign_up .center_sign_up .title_text p {
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #5C4529;
+}
+.sign_in .left_div .sign_up .center_sign_up .title_text p a {
+  color: #0094FF;
+  text-decoration: none;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text div {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text div p {
+  font-family: "Popins-R";
+  font-weight: 300;
+  font-size: 14px;
+  color: #311F09;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text div input {
+  width: 100%;
+  height: 50%;
+  border-style: none;
+  border-radius: 15px;
+  padding: 5%;
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #311F09;
+  background-color: rgba(208, 204, 199, 0.2862745098);
+  cursor: pointer;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text .uhti {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text .uhti div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text .uhti div input {
+  width: 25px;
+  height: auto;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text .uhti div p {
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #311F09;
+}
+.sign_in .left_div .sign_up .center_sign_up .inputs_text .uhti a {
+  font-family: "Popins-R";
+  font-size: 14px;
+  color: #311F09;
+  text-decoration: none;
+}
+.sign_in .left_div .sign_up .center_sign_up .buttons_sign_up {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign_in .left_div .sign_up .center_sign_up .buttons_sign_up .orange {
+  width: 100%;
+  height: 45%;
+  border-style: none;
+  border-radius: 100px;
+  padding: 5%;
+  background-color: #FF8A00;
+  color: white;
+  font-family: "Popins-R";
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.sign_in .left_div .sign_up .center_sign_up .buttons_sign_up .orange:hover {
+  background-color: #ffae52;
+}
+.sign_in .left_div .sign_up .center_sign_up .buttons_sign_up .google_butt {
+  width: 100%;
+  height: 45%;
+  border-style: none;
+  border: 1px solid rgba(182, 163, 139, 0.8352941176);
+  border-radius: 100px;
+  padding: 5%;
+  gap: 5%;
+  background-color: white;
+  color: #311F09;
+  font-family: "Popins-R";
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+.sign_in .left_div .sign_up .center_sign_up .buttons_sign_up .google_butt:hover {
+  background-color: #dfdfdf;
+}
+.sign_in .left_div .sign_up .center_sign_up .copirait {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign_in .left_div .sign_up .center_sign_up .copirait p {
+  color: #C7BFB6;
+  font-family: "Popins-R";
+  font-size: 14px;
+}
+.sign_in .right_div {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url(resource/blini.png);
+  background-size: cover;
+  background-clip: content-box;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
